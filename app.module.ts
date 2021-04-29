@@ -13,6 +13,7 @@ import { BoardVendorComponent } from './board-vendor/board-vendor.component';
 import { BoardAdminComponent } from './board-admin/board-admin.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { HeaderComponent } from './header/header.component';
+import { OrderItemComponent } from './order-item/order-item.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HeaderComponent } from './header/header.component';
     BoardVendorComponent,
     BoardAdminComponent,
     EmployeeComponent,
-    HeaderComponent
+    HeaderComponent,
+    OrderItemComponent
   ],
   imports: [
     BrowserModule,
